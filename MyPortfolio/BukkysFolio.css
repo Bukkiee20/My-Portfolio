@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color:white;
+
+}
+.nav{
+    background-color:black;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    padding: 20px;
+}
+img {
+    width: 90%;
+    height: 180px;
+    border-radius: 100%;
+    
+}
+.name{
+    font-size: 20px;
+    text-align: center;
+    color: orange;
+    margin-top: 15px;
+}
+.name span{
+    color: white;
+}
+.navitems, .links{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    margin-top: 50px;
+    font-size: 15px;
+}
+ul li{
+    padding: 10px;
+}
+ul li a{
+    color: white;
+    transition: 0.6s ease-in-out;
+    display: block;
+}
+ul li a.active{
+    color: orange;
+    background-color: white;
+    padding: 15px;
+    
+    
+}
+ul li a:hover{
+    color: black;
+    background-color: orange;
+    padding: 15px;
+    font-weight: bold;
+}
+.links li{
+    display: inline-block;
+    margin-top:10px;
+}
+.links li a i{
+    font-size: 25px;  
+}
+
+.lefthand{
+    float: right;
+    width: 80%;
+    padding: 80px;
+    margin-top: 150px;  
+    text-align: center;
+    
+ 
+}
+
+.lefthand p{
+    font-weight: bold;
+}
+
+h1 span, h4{
+    color: orange;
+}
+.gap{
+    margin-bottom: 20px;
+}
+.about{
+    margin-bottom: 20px;
+}
+.lefthand p.aboutt{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.btn input{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 150px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    transition: width 2s;
+}
+.btn input:hover{
+    color: orange;
+    background-color: black;
+    width:300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    
+}
